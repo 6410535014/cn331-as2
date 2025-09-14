@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-nav {
+  background-color: #40E0D0;
+  padding: 12px 20px;
+  border-radius: 0 0 12px 12px;
+}
+
+
+.main-nav a {
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+
+.logout-form {
+  display: inline;
+}
+
+
+.logout-btn {
+  color: white !important;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+
+.btn-primary {
+  background-color: #40E0D0 !important;
+  border-color: #40E0D0 !important;
+  color: #fff !important;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #30c9ba !important;
+  border-color: #30c9ba !important;
+}
+
+
+.btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #bb2d3b !important;
+  border-color: #b02a37 !important;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+
+th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}

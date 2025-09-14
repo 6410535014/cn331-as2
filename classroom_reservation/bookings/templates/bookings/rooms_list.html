@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>ห้องที่เปิดให้จอง</h2>
+<table>
+  <thead>
+    <tr>
+      <th>รหัส</th>
+      <th>ชื่อ</th>
+      <th>ความจุ</th>
+      <th>ชั่วโมงว่าง</th>
+      <th>จอง</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for room in rooms %}
+    <tr>
+      <td>{{ room.code }}</td>
+      <td>{{ room.name }}</td>
+      <td>{{ room.capacity }}</td>
+      <td>{{ room.available_hours }}</td>
+      <td>
+        {% if user.is_authenticated %}
+          {% if room.available_hours > 0 %}
+            <form method="post" action="{% url 'book_room' %}">
+              {% csrf_token %}
+              <input type="hidden" name="room_id" value="{{ room.id }}">
+              <button type="submit" class="btn btn-primary btn-sm">จอง 1 ชั่วโมง</button>
+            </form>
+          {% else %}
+            <button class="btn btn-secondary btn-sm" disabled>ไม่มีชั่วโมงว่าง</button>
+          {% endif %}
+        {% else %}
+          <a class="btn btn-primary btn-sm" href="{% url 'login' %}?next={% url 'rooms' %}">Login เพื่อจอง</a>
+        {% endif %}
+      </td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="5">ไม่มีห้องเปิดให้จอง</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
