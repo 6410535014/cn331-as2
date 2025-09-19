@@ -7,7 +7,7 @@
       "is_superuser": true,
       "is_staff": true,
       "is_active": true,
-      "password": "admin123"
+      "password": "$2y$13$sVaNh1V7HPj0TvC/wJKAveIul3aZuX4iGC9W4Xnvxqqwg0BIfjChC"
     }
   },
   {
@@ -17,7 +17,7 @@
       "username": "user1",
       "is_active": true,
       "is_staff": false,
-      "password": "123456"
+      "password": "$2y$13$1hZSCa7RNk6y2kMgoKuTs.CXSmYCrQZIAlsJ6gjnrBEhdBwfo5iky"
     }
   },
   {
@@ -27,7 +27,7 @@
       "username": "user2",
       "is_active": true,
       "is_staff": false,
-      "password": "qwerty"
+      "password": "$2y$13$dP0NUwUbxyN1QLS/IhMYP.QIeARhZJTbZyHHvWMS4VDtHo.HyI9A."
     }
   },
   {
@@ -37,7 +37,7 @@
       "username": "user3",
       "is_active": true,
       "is_staff": false,
-      "password": "user123"
+      "password": "$2y$13$fozR.Zuud802QUn7eTda3.FP2AqRfl2KEqLJnB3pGTo64O8Ktjo4i"
     }
   },
   {
