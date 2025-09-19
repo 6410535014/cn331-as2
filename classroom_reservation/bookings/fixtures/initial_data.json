@@ -1,0 +1,76 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true,
+      "password": "admin123"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "user1",
+      "is_active": true,
+      "is_staff": false,
+      "password": "123456"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "user2",
+      "is_active": true,
+      "is_staff": false,
+      "password": "qwerty"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "user3",
+      "is_active": true,
+      "is_staff": false,
+      "password": "user123"
+    }
+  },
+  {
+    "model": "bookings.room",
+    "pk": 1,
+    "fields": {
+      "code": "EGR502",
+      "name": "Room 502",
+      "capacity": 30,
+      "available_hours": 3,
+      "is_open": true
+    }
+  },
+  {
+    "model": "bookings.room",
+    "pk": 2,
+    "fields": {
+      "code": "EGR302",
+      "name": "Room 302",
+      "capacity": 50,
+      "available_hours": 6,
+      "is_open": true
+    }
+  },
+  {
+    "model": "bookings.room",
+    "pk": 3,
+    "fields": {
+      "code": "EGR310",
+      "name": "Room 310",
+      "capacity": 50,
+      "available_hours": 3,
+      "is_open": true
+    }
+  }
+]
