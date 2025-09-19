@@ -7,7 +7,7 @@
       "is_superuser": true,
       "is_staff": true,
       "is_active": true,
-      "password": "$2y$13$sVaNh1V7HPj0TvC/wJKAveIul3aZuX4iGC9W4Xnvxqqwg0BIfjChC"
+      "password": "pbkdf2_sha256$1000000$NwyNrhZeFz360xj0zGOG5q$hR2D94UtsAuJsxFuEnjLlM/L8w36dml5pLgQr8tC5zY="
     }
   },
   {
@@ -17,7 +17,7 @@
       "username": "user1",
       "is_active": true,
       "is_staff": false,
-      "password": "$2y$13$1hZSCa7RNk6y2kMgoKuTs.CXSmYCrQZIAlsJ6gjnrBEhdBwfo5iky"
+      "password": "pbkdf2_sha256$1000000$GKbc51locsYg2muWEEOmK8$1RAyhkvinUON3uA7KIu4niEpM1vKhSHfISVuWrTFAvU="
     }
   },
   {
@@ -27,7 +27,7 @@
       "username": "user2",
       "is_active": true,
       "is_staff": false,
-      "password": "$2y$13$dP0NUwUbxyN1QLS/IhMYP.QIeARhZJTbZyHHvWMS4VDtHo.HyI9A."
+      "password": "pbkdf2_sha256$1000000$LPNrkgvMpqrHEZnYgw1e8A$skEwPeBYH/3V6A3wWQScqYWhxjVRMhtji9kYUNlk09A="
     }
   },
   {
@@ -37,7 +37,7 @@
       "username": "user3",
       "is_active": true,
       "is_staff": false,
-      "password": "$2y$13$fozR.Zuud802QUn7eTda3.FP2AqRfl2KEqLJnB3pGTo64O8Ktjo4i"
+      "password": "pbkdf2_sha256$1000000$x4tommJTAH8wXyPUtUSxSH$ZoPC4RZH3T/FdUPLV0eI/tIQUNhNsp0uPYHuwMn4OHo="
     }
   },
   {
