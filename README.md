@@ -2,7 +2,9 @@
 
 ระบบจองห้องเรียน ใช้ **Django Framework** <br>
 โดย นายอุกฤษฏ์ ดอกกุหลาบ 6410535014 <br>
-Link video: [แสดงและบรรยายการใช้งานทุกฟังก์ชันของระบบ](https://drive.google.com/file/d/1rIJprRaxM0py4lU0G6lsw01sggeFjFyS/view?usp=sharing)
+Link video: [แสดงและบรรยายการใช้งานทุกฟังก์ชันของระบบ](https://drive.google.com/file/d/1rIJprRaxM0py4lU0G6lsw01sggeFjFyS/view?usp=sharing) <br>
+Link web: [web app บน cloud](https://cn331-as3-1k0g.onrender.com) <br>
+Link video: [แสดงและบรรยายการใช้งานทุกฟังก์ชันของระบบบน cloud](https://drive.google.com/file/d/1jayQu6BkEeYJHsoFuFOFuhwV4D-rYNWX/view?usp=sharing)
 
 ---
 ## Features
